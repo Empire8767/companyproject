@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.memeber_login {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 80px;
+  font-weight: 700;
+  color: darkolivegreen;
+}
+
+.container .row .pagetwo {
+  margin-top: 170px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  box-shadow: 0 20px 20px 20px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  height: 300px;
+  width: 500px;
+  opacity: 0.8;
+  background-image: url("Flower-image.avif");
+}
+
+.container .row .pagetwo .heading {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: black;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  opacity: 0.8;
+}
+
+.container .row .pagetwo .form-group {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.container .row .para::first-letter {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .row .img {
+  margin-top: 150px;
+}
